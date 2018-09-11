@@ -1,2 +1,2 @@
-# CalculadoraGenerics
+# Calculadora Generics
 Calculadora desenvolvida em JavaFx
