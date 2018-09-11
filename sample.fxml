@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="583.0" prefWidth="340.0" style="-fx-background-radius: 20;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextField fx:id="mostrador" alignment="CENTER_RIGHT" editable="false" layoutX="9.0" layoutY="46.0" prefHeight="77.0" prefWidth="316.0" style="-fx-background-radius: 20;">
+         <font>
+            <Font size="36.0" />
+         </font></TextField>
+      <MenuBar layoutX="2.0" layoutY="2.0" prefHeight="32.0" prefWidth="342.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="button7" layoutX="19.0" layoutY="222.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="7" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="19.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button8" layoutX="99.0" layoutY="222.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="8" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="99.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button9" layoutX="179.0" layoutY="222.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="9" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="179.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSubtracao" layoutX="259.0" layoutY="222.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="-" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="259.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="19.0" layoutY="312.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="4" AnchorPane.bottomAnchor="194.0" AnchorPane.leftAnchor="19.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button5" layoutX="99.0" layoutY="312.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="5" AnchorPane.bottomAnchor="194.0" AnchorPane.leftAnchor="99.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button6" layoutX="179.0" layoutY="312.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="6" AnchorPane.bottomAnchor="194.0" AnchorPane.leftAnchor="179.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonSoma" layoutX="259.0" layoutY="314.0" mnemonicParsing="false" prefHeight="165.0" prefWidth="73.0" style="-fx-background-radius: 20;" text="+" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="259.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button1" layoutX="19.0" layoutY="402.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="1" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="19.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="99.0" layoutY="402.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="2" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="99.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button3" layoutX="179.0" layoutY="402.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="3" AnchorPane.bottomAnchor="104.0" AnchorPane.leftAnchor="179.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonMultiplicacao" layoutX="259.0" layoutY="132.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="x" AnchorPane.bottomAnchor="374.0" AnchorPane.leftAnchor="259.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="button0" layoutX="19.0" layoutY="492.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="19.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonDivisao" layoutX="179.0" layoutY="132.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="63.0" style="-fx-background-radius: 20;" text="/" AnchorPane.bottomAnchor="374.0" AnchorPane.leftAnchor="179.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonPontoFlutuante" layoutX="99.0" layoutY="492.0" mnemonicParsing="false" style="-fx-background-radius: 20;" text="." AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="99.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonIgualdade" layoutX="179.0" layoutY="492.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="153.0" style="-fx-background-radius: 20;" text="=" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="179.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <Button fx:id="buttonApagar" layoutX="16.0" layoutY="132.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="143.0" style="-fx-background-radius: 20;" text="del" AnchorPane.bottomAnchor="374.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
